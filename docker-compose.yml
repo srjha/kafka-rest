@@ -104,7 +104,6 @@ services:
     container_name: ksqldb-cli
     depends_on:
       - broker
-      - connect
       - ksqldb-server
     entrypoint: /bin/sh
     tty: true
